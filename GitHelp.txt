@@ -17,6 +17,7 @@ git remote add origin https://github.com/arzy-53-2/OOP-53-2.git
 Команды которые часто используются
 git status
 git add .
+git add filename\path/file_name\path
 git commit -m "commit name"
 git push origin master\main
 
