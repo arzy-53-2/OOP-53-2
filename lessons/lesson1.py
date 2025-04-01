@@ -71,4 +71,7 @@ hero = Hero("Герой")
 kirito = Warrior(lvl=90, name="Kirito", hp=1000)
 
 kirito.introduce()
+
+
+
 kirito.rest()
