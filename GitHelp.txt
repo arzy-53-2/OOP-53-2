@@ -20,3 +20,9 @@ git add .
 git commit -m "commit name"
 git push origin master\main
 
+
+git branch branch_name  | Создание ветки
+git branch branch_name  | Создание ветки
+git checkout -b branch_name | Cоздание ветки и Переключение ветку
+git checkout branch_name | Переключение ветки
+git switch branch_name | Переключение ветки
