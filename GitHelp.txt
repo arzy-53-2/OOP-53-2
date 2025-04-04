@@ -30,3 +30,4 @@ git switch branch_name | Переключение ветки
 
 
 git rm --cached -r .idea
+
