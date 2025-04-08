@@ -34,3 +34,6 @@ git rm --cached -r .idea
 git merge branch_name    | Стягивает измененение из указанной ветки
 
 git pull origin branch_name
+
+
+
