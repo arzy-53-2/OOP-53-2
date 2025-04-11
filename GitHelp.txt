@@ -36,4 +36,16 @@ git merge branch_name    | Стягивает измененение из ука
 git pull origin branch_name
 
 
+команды для работы с VENV
 
+
+deactivate    | Команды для отключения venv
+
+py
+python   -m venv name_venv    |   Команда для создания venv
+python3
+
+
+source venv/bin/activate  | Команды для активации venv на Mac OS & Linux
+
+venv\Scripts\activate     | | Команды для активации venv на Wind OS
