@@ -1,51 +1,94 @@
-Команды для регистрации ваших данных - Это команды пишутся один раз на одно устройство
+Команды один раз на устройство
+--------------------------------------------------------
+Команды для регистрации ваших данных
 git config --global user.name "Your name"
 git config --global user.email "your-email@example.com"
+---------------------------------------------------------
 
-Команды для удаление настроек
-git config --global --unset user.name
-git config --global --unset user.email
-
-
-Команды один раз для проекта
+Команды один раз на проект
+--------------------------------------------------------
 git init
-git remote add origin https://github.com/arzy-53-2/OOP-53-2.git
+git remote add origin https://github.com/arzy-52-2/oop-52-2.git
 
+# удаление удаленного репозитория то есть ссылки на него
+git remote remove origin
+----------------------------------------------------------------
 
+Часто используемые команды
+---------------------------------------------------------------
 
-
-Команды которые часто используются
+Команда для статуса проекта и его состояния
 git status
+
+Команда для добавления файлов в буфер
 git add .
-git add filename\path/file_name\path
-git commit -m "commit name"
-git push origin master\main
+
+Команда для создания коммита или же сохранения всего что есть в буфере
+git commit -m "LS: Lesson 1 added learn python oop"
+
+команда для просмотра ветки
+git branch
 
 
-git branch branch_name  | Создание ветки
-git branch branch_name  | Создание ветки
-git checkout -b branch_name | Cоздание ветки и Переключение ветку
-git checkout branch_name | Переключение ветки
-git switch branch_name | Переключение ветки
+Команда для создания ветки
+git checkout -b name_branch        | Создание ветки и переход к ней
+git branch name_branch              | Создание ветки
+
+Команда для перехода в ветку
+git checkout name_branch
+git switch name_branch
+
+git reset file_name     | Команда для возврата на предыдущую версию
+git rebase -i HEAD~2             | Команда для возврата на предыдущую версию
+
+---------------------------------------------------------------------
+
+python -m venv name_vane
+py -m venv name_vane              | Команда для создания виртуального окружения
+python3 -m venv name_vane
+
+deactivate                | Команда для выхода из виртуального окружения
+
+source name_vane/bin/activate | Команда для активации виртуального окружения на Mac OS Linux
+
+name_vane\Scripts\activate   | Команда для активации виртуального окружения на Windows
+---------------------------------------------------------------------
+
+Команда для отправки коммита в репозитории
+git push origin main
 
 
-git rm --cached -r .idea
+Команда для удаления директории и все что она содержит
 
-git merge branch_name    | Стягивает измененение из указанной ветки
-
-git pull origin branch_name
+git rm -r --cached .idea
 
 
-команды для работы с VENV
+Команда для клона репозитория
+
+git clone https://github.com/arzy-52-2/oop-52-2
+---------------------------------------------------------------
+
+Базовые команды линукса терминала
+
+ls      | список файлов и директории
+ls -a   |  список файлов и директории включая скрытые
+
+cd      |  переход в директорию
+cd ../  |  переход в директорию выше
+cd ~    | переход в домашнюю директорию
+
+mkdir name_dir    | создание директории
+touch name_file   | создание файла
+
+rm -r name_dir   | удаление директории
+rm name_file     | удаление файла
 
 
-deactivate    | Команды для отключения venv
-
-py
-python   -m venv name_venv    |   Команда для создания venv
-python3
+clear    | очистка терминала
 
 
-source venv/bin/activate  | Команды для активации venv на Mac OS & Linux
+control + c
 
-venv\Scripts\activate     | | Команды для активации venv на Wind OS
+
+
+new update code
