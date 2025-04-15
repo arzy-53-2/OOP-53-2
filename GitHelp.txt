@@ -41,6 +41,11 @@ git switch name_branch
 git reset file_name     | Команда для возврата на предыдущую версию
 git rebase -i HEAD~2             | Команда для возврата на предыдущую версию
 
+
+git reset . или name_file | Удаляет то что добавлено в git add
+git restore . или name_file  | Удаляет то что написано локально у вас когда не работает control + z
+
+
 ---------------------------------------------------------------------
 
 python -m venv name_vane
@@ -80,7 +85,7 @@ cd ~    | переход в домашнюю директорию
 mkdir name_dir    | создание директории
 touch name_file   | создание файла
 
-rm -r name_dir   | удаление директории
+rm -r .idea   | удаление директории
 rm name_file     | удаление файла
 
 
@@ -92,3 +97,5 @@ control + c
 
 
 new update code
+
+
